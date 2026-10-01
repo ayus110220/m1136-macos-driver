@@ -1,0 +1,166 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP LaserJet Professional M1136 MFP for macOS
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "HPM1136.PPD"
+*Product: "(HP LaserJet Professional M1136 MFP)"
+*Manufacturer: "HP"
+*ModelName: "HP LaserJet Professional M1136 MFP"
+*ShortNickName: "HP LaserJet M1136 MFP"
+*NickName: "HP LaserJet Professional M1136 MFP"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "18"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*RequiresPageRegion All: True
+*1284DeviceID: "MFG:Hewlett-Packard;MDL:HP LaserJet Professional M1136 MFP;CMD:ZJS,HBS,PJL,ACL,HTTP;CLS:PRINTER;DES:HP LaserJet Professional M1136 MFP;"
+*cupsVersion: 2.4
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 /Library/Printers/rastertoxqx"
+*cupsLanguages: "en"
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize A4/A4 (210 x 297 mm): "<</cupsInteger0 9/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageSize Letter/US Letter (8.5 x 11 in): "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/US Legal (8.5 x 14 in): "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize Executive/Executive (7.25 x 10.5 in): "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5 (148 x 210 mm): "<</cupsInteger0 25/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*PageSize A6/A6 (105 x 148 mm): "<</cupsInteger0 24/PageSize[298 420]/ImagingBBox null>>setpagedevice"
+*PageSize JB5/B5 JIS (182 x 257 mm): "<</cupsInteger0 96/PageSize[516.24 728.64]/ImagingBBox null>>setpagedevice"
+*PageSize 16k195x270/16K (195 x 270 mm): "<</cupsInteger0 34/PageSize[553 765]/ImagingBBox null>>setpagedevice"
+*PageSize 16k184x260/16K (184 x 260 mm): "<</cupsInteger0 89/PageSize[522 737]/ImagingBBox null>>setpagedevice"
+*PageSize 16k197x273/16K (197 x 273 mm): "<</cupsInteger0 17/PageSize[558 774]/ImagingBBox null>>setpagedevice"
+*PageSize Env10/Envelope #10 (4.12 x 9.5 in): "<</cupsInteger0 81/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/Envelope DL (110 x 220 mm): "<</cupsInteger0 27/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC5/Envelope C5 (162 x 229 mm): "<</cupsInteger0 91/PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageSize EnvMonarch/Envelope Monarch (3.875 x 7.5 in): "<</cupsInteger0 96/PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageSize Postcard/Postcard (100 x 148 mm): "<</cupsInteger0 71/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion A4/A4 (210 x 297 mm): "<</cupsInteger0 9/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter/US Letter (8.5 x 11 in): "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/US Legal (8.5 x 14 in): "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive (7.25 x 10.5 in): "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5 (148 x 210 mm): "<</cupsInteger0 25/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*PageRegion A6/A6 (105 x 148 mm): "<</cupsInteger0 24/PageSize[298 420]/ImagingBBox null>>setpagedevice"
+*PageRegion JB5/B5 JIS (182 x 257 mm): "<</cupsInteger0 96/PageSize[516.24 728.64]/ImagingBBox null>>setpagedevice"
+*PageRegion 16k195x270/16K (195 x 270 mm): "<</cupsInteger0 34/PageSize[553 765]/ImagingBBox null>>setpagedevice"
+*PageRegion 16k184x260/16K (184 x 260 mm): "<</cupsInteger0 89/PageSize[522 737]/ImagingBBox null>>setpagedevice"
+*PageRegion 16k197x273/16K (197 x 273 mm): "<</cupsInteger0 17/PageSize[558 774]/ImagingBBox null>>setpagedevice"
+*PageRegion Env10/Envelope #10 (4.12 x 9.5 in): "<</cupsInteger0 81/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/Envelope DL (110 x 220 mm): "<</cupsInteger0 27/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC5/Envelope C5 (162 x 229 mm): "<</cupsInteger0 91/PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvMonarch/Envelope Monarch (3.875 x 7.5 in): "<</cupsInteger0 96/PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageRegion Postcard/Postcard (100 x 148 mm): "<</cupsInteger0 71/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: A4
+*ImageableArea A4/A4 (210 x 297 mm): "12 12 583.44 829.68"
+*ImageableArea Letter/US Letter (8.5 x 11 in): "12 12 600 780"
+*ImageableArea Legal/US Legal (8.5 x 14 in): "12 12 600 996"
+*ImageableArea Executive/Executive (7.25 x 10.5 in): "12 12 510 744"
+*ImageableArea A5/A5 (148 x 210 mm): "12 12 408 583"
+*ImageableArea A6/A6 (105 x 148 mm): "12 12 286 408"
+*ImageableArea JB5/B5 JIS (182 x 257 mm): "12 12 504.24 716.64"
+*ImageableArea 16k195x270/16K (195 x 270 mm): "12 12 541 753"
+*ImageableArea 16k184x260/16K (184 x 260 mm): "12 12 510 725"
+*ImageableArea 16k197x273/16K (197 x 273 mm): "12 12 546 762"
+*ImageableArea Env10/Envelope #10 (4.12 x 9.5 in): "12 12 285 672"
+*ImageableArea EnvDL/Envelope DL (110 x 220 mm): "12 12 299.76 611.52"
+*ImageableArea EnvC5/Envelope C5 (162 x 229 mm): "12 12 447 637"
+*ImageableArea EnvMonarch/Envelope Monarch (3.875 x 7.5 in): "12 12 267 528"
+*ImageableArea Postcard/Postcard (100 x 148 mm): "12 12 271 408"
+
+*DefaultPaperDimension: A4
+*PaperDimension A4/A4 (210 x 297 mm): "595.44 841.68"
+*PaperDimension Letter/US Letter (8.5 x 11 in): "612 792"
+*PaperDimension Legal/US Legal (8.5 x 14 in): "612 1008"
+*PaperDimension Executive/Executive (7.25 x 10.5 in): "522 756"
+*PaperDimension A5/A5 (148 x 210 mm): "420 595"
+*PaperDimension A6/A6 (105 x 148 mm): "298 420"
+*PaperDimension JB5/B5 JIS (182 x 257 mm): "516.24 728.64"
+*PaperDimension 16k195x270/16K (195 x 270 mm): "553 765"
+*PaperDimension 16k184x260/16K (184 x 260 mm): "522 737"
+*PaperDimension 16k197x273/16K (197 x 273 mm): "558 774"
+*PaperDimension Env10/Envelope #10 (4.12 x 9.5 in): "297 684"
+*PaperDimension EnvDL/Envelope DL (110 x 220 mm): "311.76 623.52"
+*PaperDimension EnvC5/Envelope C5 (162 x 229 mm): "459 649"
+*PaperDimension EnvMonarch/Envelope Monarch (3.875 x 7.5 in): "279 540"
+*PaperDimension Postcard/Postcard (100 x 148 mm): "283 420"
+
+*OpenUI *InputSlot/Paper Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Auto Select: "<</MediaPosition 7>>setpagedevice"
+*InputSlot Tray1/Main Tray: "<</MediaPosition 1>>setpagedevice"
+*InputSlot Manual/Manual Feed: "<</MediaPosition 4>>setpagedevice"
+*CloseUI: *InputSlot
+
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: Gray
+*ColorModel Gray/Monochrome: "<</cupsColorSpace 3/cupsBitsPerColor 1>>setpagedevice"
+*CloseUI: *ColorModel
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 600dpi
+*Resolution 600dpi/600 x 600 dpi (FastRes 600): "<</HWResolution[600 600]>>setpagedevice"
+*Resolution 1200x600dpi/1200 x 600 dpi (FastRes 1200): "<</HWResolution[1200 600]>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *EconoMode/EconoMode (Toner Save): PickOne
+*OrderDependency: 10 AnySetup *EconoMode
+*DefaultEconoMode: False
+*EconoMode False/Off (Highest Quality): ""
+*EconoMode True/On (Save Toner): ""
+*CloseUI: *EconoMode
+
+*OpenUI *PrintDensity/Print Density: PickOne
+*OrderDependency: 10 AnySetup *PrintDensity
+*DefaultPrintDensity: 3
+*PrintDensity 1/1 - Lightest: ""
+*PrintDensity 2/2 - Light: ""
+*PrintDensity 3/3 - Medium: ""
+*PrintDensity 4/4 - Dark: ""
+*PrintDensity 5/5 - Darkest: ""
+*CloseUI: *PrintDensity
+
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Plain
+*MediaType Plain/Plain Paper: "<</cupsMediaType 1>>setpagedevice"
+*MediaType Heavy/Heavy / Cardstock: "<</cupsMediaType 262>>setpagedevice"
+*MediaType Transparency/Transparency: "<</cupsMediaType 2>>setpagedevice"
+*MediaType Labels/Labels: "<</cupsMediaType 263>>setpagedevice"
+*MediaType Letterhead/Letterhead: "<</cupsMediaType 259>>setpagedevice"
+*MediaType Envelope/Envelope: "<</cupsMediaType 257>>setpagedevice"
+*MediaType Recycled/Recycled: "<</cupsMediaType 516>>setpagedevice"
+*CloseUI: *MediaType
+
+*DefaultFont: Courier
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
